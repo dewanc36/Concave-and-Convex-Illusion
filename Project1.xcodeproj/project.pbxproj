@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B5C31801D3DD239004620C6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C317F1D3DD239004620C6 /* main.cpp */; };
+		0B5C31871D3DD246004620C6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5C31861D3DD246004620C6 /* OpenGL.framework */; };
+		0B5C31891D3DD24D004620C6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5C31881D3DD24D004620C6 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		0B5C317C1D3DD239004620C6 /* Project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project1; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5C317F1D3DD239004620C6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0B5C31861D3DD246004620C6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		0B5C31881D3DD24D004620C6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5C31891D3DD24D004620C6 /* GLUT.framework in Frameworks */,
+				0B5C31871D3DD246004620C6 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		0B5C31731D3DD239004620C6 = {
 			isa = PBXGroup;
 			children = (
+				0B5C31881D3DD24D004620C6 /* GLUT.framework */,
+				0B5C31861D3DD246004620C6 /* OpenGL.framework */,
 				0B5C317E1D3DD239004620C6 /* Project1 */,
 				0B5C317D1D3DD239004620C6 /* Products */,
 			);
